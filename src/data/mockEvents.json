@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "React Conference",
+        "description": "A conference about React and its ecosystem.",
+        "category": "Conference",
+        "date": "2024-11-20",
+        "availableSeats": 10,
+        "price": 100
+    },
+    {
+        "id": 2,
+        "title": "JavaScript Workshop",
+        "description": "A workshop to improve your JavaScript skills.",
+        "category": "Workshop",
+        "date": "2024-12-01",
+        "availableSeats": 5,
+        "price": 50
+    },
+    {
+        "id": 3,
+        "title": "Python Meetup",
+        "description": "Meet and network with Python developers.",
+        "category": "Meetup",
+        "date": "2024-11-30",
+        "availableSeats": 0,
+        "price": 20
+    }
+]

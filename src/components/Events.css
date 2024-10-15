@@ -1,0 +1,93 @@
+/* Events.css */
+
+/* General styles for the event list */
+.event-list {
+    max-width: 800px; /* Maximum width for the list */
+    margin: 20px auto; /* Center the list */
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Title styles */
+  .event-list h2 {
+    font-size: 2rem; /* Larger font size */
+    color: #007f7f; /* Teal color */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  /* Styles for the list items */
+  .event-list ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Individual event styles */
+  .event-list li {
+    background: #ffffff; /* White background for each event */
+    margin: 15px 0; /* Space between events */
+    padding: 15px; /* Padding inside each event */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  /* Event title */
+  .event-list h3 {
+    font-size: 1.5rem; /* Font size for event title */
+    color: #333; /* Dark color for text */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Description styles */
+  .event-list p {
+    color: #555; /* Gray color for description */
+    margin: 5px 0; /* Space above and below paragraphs */
+  }
+  
+  /* Styles for buttons */
+  .event-list button {
+    padding: 10px 15px; /* Padding for the button */
+    font-size: 1rem; /* Font size */
+    color: white; /* Text color */
+    background-color: #007f7f; /* Button background color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  }
+  
+  /* Button hover effect */
+  .event-list button:hover {
+    background-color: #009999; /* Lighter teal on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  /* Styles for fully booked message */
+  .event-list p:last-child {
+    color: #ff4d4d; /* Red color for fully booked message */
+    font-weight: bold; /* Bold text */
+    margin-top: 10px; /* Space above message */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .event-list {
+      padding: 10px; /* Reduce padding on smaller screens */
+    }
+  
+    .event-list h2 {
+      font-size: 1.5rem; /* Adjust font size */
+    }
+  
+    .event-list h3 {
+      font-size: 1.25rem; /* Adjust font size */
+    }
+  
+    .event-list button {
+      width: 100%; /* Full-width buttons on small screens */
+    }
+  }
+  
