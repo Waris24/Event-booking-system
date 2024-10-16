@@ -25,5 +25,14 @@
         "date": "2024-11-30",
         "availableSeats": 0,
         "price": 20
+    },
+    {
+        "id": 4,
+        "title": "Python Meetuprd",
+        "description": "Meet and network with Python developer  s.",
+        "category": "Meetup",
+        "date": "2024-01-30",
+        "availableSeats": 43,
+        "price": 20
     }
 ]

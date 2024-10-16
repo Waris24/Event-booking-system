@@ -4,7 +4,7 @@ import "./Login.css"; // Link to the new CSS file for styling
 function Login({ onLogin }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const mockUser = { username: "admin", password: "admin" };
+  const mockUser = { username: "kusuma27@gmail.com", password: "admin" };
 
   const handleSubmit = (e) => {
     e.preventDefault();

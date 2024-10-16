@@ -1,6 +1,16 @@
 /* Events.css */
 
 /* General styles for the event list */
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .event-list {
     max-width: 800px; /* Maximum width for the list */
     margin: 20px auto; /* Center the list */
